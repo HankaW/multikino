@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background: url('tlo2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.naglowek ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(42, 41, 41);
+}
+
+.naglowek li {
+    float: left;
+}
+
+.naglowek li a {
+    display: block;
+    color: rgb(231, 225, 225);
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+.naglowek li a:hover {
+    background-color: #646363;
+}
+.container {
+
+    border-radius: 10px;
+    margin-left:  210px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(150px);
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px #000000;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+
+input[type='submit'] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #76c7c0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type='submit']:hover {
+    background-color: #5aa8a3;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #76c7c0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

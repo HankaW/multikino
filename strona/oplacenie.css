@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+         background: url('platnosc.jpg') no-repeat;
+        background-size: cover;* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .naglowek ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+        background-color: rgb(42, 41, 41);
+    }
+    
+    .naglowek li {
+        float: left;
+    }
+    
+    .naglowek li a {
+        display: block;
+        color: rgb(231, 225, 225);
+        text-align: center;
+        padding: 15px 16px;
+        text-decoration: none;
+    }
+    
+    .naglowek li a:hover {
+        background-color: #646363;
+    }
+
+    
+    .container {
+        margin: 20px auto;
+        width: 23%;
+        margin-top: 165px;
+        text-align: center;
+        border-radius: 10px;
+        justify-content: center;
+        padding: 20px;
+    
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(150px);
+        background-color: rgb(179, 173, 174);
+        border: 2px solid #ffffff;
+        color: #000000;
+        backdrop-filter: blur(15px);
+        box-shadow: 0 0 10px #000000;
+    }
+
+    .przerwa{
+        padding: 12px;
+    }
+
+    .btn{
+        background: rgb(179, 173, 174);
+        padding: 0px;
+        margin-top: 20px;
+        border: 2px solid #ffffff;
+        outline: none;
+        border: 2px solid rgb(179, 173, 174);
+        cursor: pointer;
+        color: #797979;
+        font-weight: 600;
+        font-size: 16px;
+        color: #000000;
+        border-collapse: collapse;
+
+    }
+    
+    background-position: center;
+    height: 500px;
+
+    .btn:hover {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background: url('tlo2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.naglowek ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(42, 41, 41);
+}
+
+.naglowek li {
+    float: left;
+}
+
+.naglowek li a {
+    display: block;
+    color: rgb(231, 225, 225);
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+.naglowek li a:hover {
+    background-color: #646363;
+}
+
+.container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.films-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.film {
+    position: relative;
+    width: 200px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.film img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #646363;
+    transition: transform 0.3s ease;
+}
+
+.film input[type="radio"] {
+    display: none;
+}
+
+.film input[type="radio"]:checked + label img {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+.film input[type="radio"]:checked + label .film-info {
+    opacity: 1;
+}
+
+.film:hover img {
+    transform: scale(1.05);
+}
+
+.film-info {
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.film:hover .film-info {
+    opacity: 1;
+}
+
+.submit-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-section .btn {
+    width: 25%;
+    height: 40px;
+    background: #fcfcfc;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.submit-section .btn:hover {
+    background: #d4d4da;
+}
+
+.submit-section a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #b3b6ba;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.submit-section a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
